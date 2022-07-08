@@ -1,0 +1,32 @@
+[pulseaudio]
+command=.scripts/i3blocks/pulseaudio -d
+interval=1
+
+[cpu]
+command=.scripts/i3blocks/cpu -d 1 -w 70 -c 90
+interval=1
+
+[memory]
+command=.scripts/i3blocks/memory
+interval=5
+
+[temparature]
+command=.scripts/i3blocks/temperature -w 70 -c 90
+interval=3
+
+[battery]
+command=.scripts/i3blocks/battery
+interval=10
+
+[wifi]
+command=.scripts/i3blocks/wifi
+interval=60
+
+[calendar]
+command=.scripts/i3blocks/calendar
+interval=5
+
+[apt]
+command=.scripts/i3blocks/apt-upgrade -N
+interval=600
+
